@@ -1,0 +1,89 @@
+[2026-09-29T05:28:41.108Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.0f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 40020 --ipc-path Unity-Upm-40020 -l 2 --log-file C:\\Users\\Benjamin\\OneDrive\\Desktop\\Projects\\2DPlatformerKit_asdf\\MyCoolGame/Logs/upm.log
+[2026-09-29T05:28:41.156Z][INFO] IPC server started (IPC path=Unity-Upm-40020).
+[2026-09-29T05:28:41.156Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-40020.
+[2026-09-29T05:29:01.038Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-29T05:29:01.040Z][INFO] project:list-packages --> 404 (3 ms)
+[2026-09-29T05:29:01.605Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-29T05:29:01.606Z][INFO] config:project:get-registries --> 404 (1 ms)
+[2026-09-29T05:29:01.621Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-29T05:29:01.621Z][INFO] project:list-packages --> 404 (1 ms)
+[2026-09-29T05:29:01.717Z][INFO] project:update-dependencies <-- Request received
+params: {}
+[2026-09-29T05:29:01.744Z][INFO] project:update-dependencies --> 200 (27 ms)
+[2026-09-29T05:29:01.774Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-09-29T05:29:01.900Z][INFO] Downloading package [com.unity.package-manager.metadata-6000.6@0.0.88] from registry 'https://packages.unity.com'
+[2026-09-29T05:29:02.192Z][INFO] Finished downloading package [com.unity.package-manager.metadata-6000.6@0.0.88] from registry 'https://packages.unity.com' (size: 11.5 kB, time: 292ms)
+[2026-09-29T05:29:05.711Z][INFO] project:resolve-packages --> 200 (3937 ms)
+[2026-09-29T05:29:15.370Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-29T05:29:15.429Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-29T05:29:15.448Z][INFO] project:list-packages --> 200 (78 ms)
+[2026-09-29T05:29:15.485Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-29T05:29:15.490Z][INFO] project:list-packages --> 200 (61 ms)
+[2026-09-29T05:29:15.490Z][INFO] config:project:get-registries --> 200 (5 ms)
+[2026-09-29T05:29:17.742Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-29T05:29:17.797Z][INFO] project:list-packages --> 200 (55 ms)
+[2026-09-29T05:29:18.770Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-29T05:29:18.822Z][INFO] project:list-packages --> 200 (52 ms)
+[2026-09-29T05:29:19.226Z][INFO] packages:get-all-packageinfo <-- Request received
+params: {}
+[2026-09-29T05:29:19.241Z][INFO] packages:get-all-packageinfo <-- Request received
+params: {}
+[2026-09-29T05:29:19.839Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-29T05:29:20.404Z][INFO] packages:get-all-packageinfo --> 200 (1163 ms)
+[2026-09-29T05:29:20.638Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.addressables@2.11.2"
+}
+[2026-09-29T05:29:20.651Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.ads.ios-support@1.0.1"
+}
+[2026-09-29T05:29:20.673Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.project-auditor-rules@1.0.3"
+}
+[2026-09-29T05:29:20.685Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.scriptablebuildpipeline@3.0.3"
+}
+[2026-09-29T05:29:20.699Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.services.friends@1.1.1"
+}
+[2026-09-29T05:29:20.709Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.services.moderation@1.0.2"
+}
+[2026-09-29T05:29:20.711Z][INFO] project:list-packages --> 200 (872 ms)
+[2026-09-29T05:29:20.727Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.xr.compositionlayers@2.5.0"
+}
+[2026-09-29T05:29:20.797Z][INFO] packages:get-packageinfo --> 200 (98 ms)
+[2026-09-29T05:29:20.800Z][INFO] packages:get-packageinfo --> 200 (127 ms)
+[2026-09-29T05:29:20.803Z][INFO] packages:get-packageinfo --> 200 (94 ms)
+[2026-09-29T05:29:20.809Z][INFO] packages:get-packageinfo --> 200 (124 ms)
+[2026-09-29T05:29:20.810Z][INFO] packages:get-packageinfo --> 200 (159 ms)
+[2026-09-29T05:29:20.818Z][INFO] packages:get-packageinfo --> 200 (92 ms)
+[2026-09-29T05:29:20.833Z][INFO] packages:get-packageinfo --> 200 (195 ms)
+[2026-09-29T05:29:20.890Z][INFO] packages:get-all-packageinfo --> 200 (1664 ms)
+[2026-09-29T05:29:21.060Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.mobile.notifications@2.4.3"
+}
+[2026-09-29T05:29:21.074Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.services.cloud-build@2.0.8"
+}
+[2026-09-29T05:29:21.087Z][INFO] packages:get-packageinfo --> 200 (27 ms)
+[2026-09-29T05:29:21.090Z][INFO] packages:get-packageinfo --> 200 (16 ms)
